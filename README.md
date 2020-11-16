@@ -64,7 +64,7 @@ Double check your Termux document root
 If your home folder differs in BLACKICE for some strange reason to '/data/data/com.termux/files/home' you need to update the following file 'lib/config__settings.php' using vim or your favourite editor
 ```
 $ cd BLACKICEcoder
-$ vim lib/config__settings.php
+$ nano lib/config___settings.php
 ```
 Change the docRoot value to reflect your Termux home folder 
 ```
@@ -105,7 +105,7 @@ $ git clone https://github.com/raynoppe/BLACKICEcoder.git
 
 Update your config setting after you have done an initial run.
 ```
-lib/config__settings.php
+lib/config___settings.php
 ```
 Change the docRoot value to reflect your home folder
 ```

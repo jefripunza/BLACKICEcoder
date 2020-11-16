@@ -259,12 +259,11 @@ switch ($ext) {
 	<div class="monacocontainer" id="container"></div>
 	<div class="editoralert" id="editoralert">-- loading --</div>
 </div>
-<textarea id="intext" style="display: none;"><?php echo $loadedFile; ?></textarea>
 <script src="monaco/min/vs/loader.js"></script>
 <script>
 	showCodeNav = false;
 
-	var texttoedit = document.getElementById('intext').value;
+	var texttoedit = `<?php echo $loadedFile; ?>`;
 
 	require.config({ paths: { 'vs': '/monaco/min/vs' }});
 
